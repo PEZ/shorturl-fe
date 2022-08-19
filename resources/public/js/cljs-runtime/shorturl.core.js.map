@@ -1,0 +1,1 @@
+{"version":3,"sources":["shorturl/core.cljs"],"mappings":";AAEA,MAAA,NAACA","names":["js/alert"],"sourcesContent":["(ns shorturl.core)\n\n(js/alert \"hey2\")\n"]}

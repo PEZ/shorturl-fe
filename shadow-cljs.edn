@@ -1,0 +1,13 @@
+{:source-paths ["src/cljs"]
+ :builds {:app {:target :browser
+                :output-dir "resources/public/js"
+                :modules {:app {:entries [shorturl.core]}}
+                :devtools {:http-root "resources/public"
+                           :http-port 5000}}}}
+
+
+;; npx shadow-cljs watch :app
+
+;; :deps
+;;  {reagent              {:mvn/version "0.9.0-rc3"}
+;;   re-frame             {:mvn/version "0.11.0-rc3"}
